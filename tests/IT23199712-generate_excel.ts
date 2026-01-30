@@ -20,5 +20,5 @@ const testCases = [
 const wb = XLSX.utils.book_new();
 const ws = XLSX.utils.json_to_sheet(testCases);
 XLSX.utils.book_append_sheet(wb, ws, 'TestCases');
-XLSX.writeFile(wb, 'IT23156210_TestCases.xlsx');
+XLSX.writeFile(wb, 'IT23199712_TestCases.xlsx');
 console.log('Excel file created!');
